@@ -34,27 +34,27 @@ console.log(typeof Number(c))
 console.log(typeof(c/1))
 console.log(typeof(c = +c))
 console.log("ex. 6:")
-let a = 7
-let b = 3
+let a = Number(prompt("please enter a"))
+let b = Number(prompt("please enter b"))
 let formulaL = (a + b)*(a - b)
 let formulaR = a*a - b*b
-console.log(`${formulaL} = ${formulaR}`)
+console.log("Is formula right?", formulaL === formulaR)
 console.log("ex. 7:")
 let numberFirst = Number(prompt("please enter first number"))
 let numberSecond = Number(prompt("please enter second number"))
 let numberThird = Number(prompt("please enter third number"))
 alert((numberFirst += 10) + (numberSecond += 10) + (numberThird += 10))
 console.log("ex. 8:")
-let k = 4
-let m = 8
-let l = 11
+let k = Number(prompt("please enter a"))
+let m = Number(prompt("please enter b"))
+let l = Number(prompt("please enter c"))
 console.log("Does triangle exist?", k + m > l && m + l > k && k + l > m)
 console.log("ex. 9:")
-let x = 2
-let y = 7
+let x = Number(prompt("please enter a"))
+let y = Number(prompt("please enter b"))
 let formulaL2 = (x + y) ** 3
 let formulaR2 = x ** 3 + 3 * x ** 2 * y + 3 * x * y ** 2 + y ** 3
-console.log(`${formulaL2} = ${formulaR2}`)
+console.log("Is formula right?", formulaL2 === formulaR2)
 
 
 
